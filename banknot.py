@@ -1,4 +1,3 @@
-
 def para():
     tutar = int(input("Yapılan alışveriş tutarını yazınız: "))
     verilenbanknot = int(input("Verilen banknotu yazınız: "))
@@ -9,7 +8,6 @@ def para():
     sayac20 = 0
     sayac10 = 0
     sayac5 = 0
-    sayacbozuk = 0
     while(paraustu>=200):
         sayac200 = paraustu//200
         paraustu=(paraustu%200)

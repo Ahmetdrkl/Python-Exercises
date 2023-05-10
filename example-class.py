@@ -10,4 +10,5 @@ class ogrenci():
 
 o1=ogrenci("Ahmet Mahmut","Durukal","Mühendislik","Bilgisayar",1)
 o2=ogrenci("Esat Emir","Albayrakoğlu","Mühendislik","Bilgisayar",2)
-o2.get_bilgi()
+o3=ogrenci("Fatih ","Mehmet", "Sağlık Bilimleri","Hemşire",3)
+o3.get_bilgi()

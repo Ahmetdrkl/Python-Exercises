@@ -38,13 +38,12 @@ class Hasta(Hastane):
     def hastaligi_belli_olmayan_hasta(cls):
         return (cls.isim, "hastalik simdilik yok")
 
-hasta = Hasta('Volkan Demirel', 'Diare', 'Galatasaray')
+hasta = Hasta('ali', 'grip', 'parol')
 print("Hastanın ismi: {}".format(hasta.get_isim()))
 hasta.isim_getir()
 hasta.bilgi()
 print("---------------------------")
-dr = Doktor("Wesley Snaijder" ,'Pr'
-                               'of',"Pediyatri")
+dr = Doktor("veli" ,'Prof',"Pediyatri")
 print("Doktorun ismi: {}".format(dr.get_isim()))
 dr.isim_getir()
 dr.bilgi()
